@@ -1,0 +1,5 @@
+[versions]
+jda = "6.2.1"
+
+[libraries]
+jda = { module = "net.dv8tion:JDA", version.ref = "jda" }

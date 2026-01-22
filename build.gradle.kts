@@ -5,14 +5,12 @@ plugins {
 group = "ru.ttlzmc.jkdbl"
 version = "1.0-SNAPSHOT"
 
-val jdaVersion = project.properties["java.discord.api"].toString()
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation("net.dv8tion:JDA:$jdaVersion")
+    implementation(libs.jda)
 }
 
 kotlin {
